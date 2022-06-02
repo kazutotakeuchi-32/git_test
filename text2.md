@@ -54,5 +54,11 @@ git commit -m "メッセージ"
 git push origin main
 ```
 
+### リモートリポジトリの変更をローカルリポジトリに取り込む
 
+```
+# 差分を確認
+git diff 
+git pull origin main
+```
 
