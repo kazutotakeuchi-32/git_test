@@ -47,4 +47,7 @@ git hubでコンフリクトを解消してみる。(代表者)
 質疑応答。
 
 
+## 資料
+- [よく使うgitコマンド](https://github.com/kazutotakeuchi-32/git_test/blob/main/text.md)
+- [実践](https://github.com/kazutotakeuchi-32/git_test/blob/main/text2.md)
 
