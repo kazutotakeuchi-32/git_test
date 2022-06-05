@@ -9,7 +9,7 @@
 git init 
 ```
 
-### config
+### configコマンド
 現在の設定を取得、変更する
 ```
 git config 
@@ -42,6 +42,12 @@ git commit -m "コミットメッセージ"
 git log 
 # コミットログを１行で確認した場合
 git log --oneline
+```
+
+### statusコマンド
+作業ツリーのステータスを表示する
+```
+git status 
 ```
 
 ### branchコマンド
