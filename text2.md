@@ -58,7 +58,7 @@ git push origin main
 
 ```
 # 差分を確認
-git diff 
+git stauts 
 git pull origin main
 ```
 
