@@ -84,3 +84,4 @@
 - [よく使うgitコマンド](https://github.com/kazutotakeuchi-32/git_test/blob/main/text.md)
 - [実践](https://github.com/kazutotakeuchi-32/git_test/blob/main/text2.md)
 - [やってみよう](https://github.com/kazutotakeuchi-32/git_test/blob/main/text3.md)
+- [チャレンジ](https://github.com/kazutotakeuchi-32/git_test/blob/main/text4.md)
