@@ -79,14 +79,30 @@ git merge <ブランチ名>
 ```
 
 ### resetコマンド
-ファイルをインデックスから削除し、特定のコミットの状態まで戻す
+ファイルをインデックスから削除し、特定のコミットの状態まで戻す<br/>
 
+
+|  オプション  |  意味  |
+| ---- | ---- |
+|  --hard  |  add、commit、ワーキングツリーの取り消し  |
+|  --mixed  | add、commitの取り消し |
+| --soft | commitのみ取り消し |
 ```
-# git addを取り消し
-git reset HEAD
-git reset .
 
+# 直前のコミットをなかったことにする
+git reset --soft HEAD^
 
+# 直前のコミットを取り消し
+git reset --hard HEAD^
+
+# コミット後の変更を全部消したい
+git reset --hard HEAD
+
+# addを取り消したい
+git reset --mixed HEAD
+
+# git resetをなかったことにする
+git reset --hard ORIG_HEAD
 ```
 
 ## リモートリポジトリとローカルリポジトリでやりとりする際に使うコマンド 
